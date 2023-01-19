@@ -19,11 +19,31 @@ function About() {
 			</div>
             <div className="about-me">
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Hello, I'm Kiseri Habte, a recent graduate of the Rutgers University Bootcamp. 
+                My education in web development has equipped me with the skills and 
+                knowledge necessary to excel in the tech industry. 
+                I specialize in building web applications with a focus on user experience.
                 </p>
+                
+                <p>
+
+                  My background in web development combined with my passion for fitness and reading has led me to focus on 
+                  building applications that support and promote healthy lifestyles. 
+                  I am well-versed in various web development technologies, 
+                  including JavaScript, HTML, CSS, React, and more. I am always eager to learn and stay current with new technologies.
+
+                  </p>
+
+                  <p>
+
+                  Aside from coding, I enjoy staying active and keeping fit.
+                 I am a strong believer in the connection between physical and mental well-being, 
+                and I make it a priority to maintain a healthy lifestyle. 
+                I am excited to continue my journey in web development and use 
+                my skills to build applications that improve people's lives.
+
+                </p>
+               
                 
             </div>
             
