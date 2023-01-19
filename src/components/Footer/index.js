@@ -1,5 +1,7 @@
 import React from 'react';
 import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { Button, DatePicker, Space, version } from 'antd';
+import "antd/dist/reset.css";
 
 
 function Footer() {

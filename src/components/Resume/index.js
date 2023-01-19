@@ -13,6 +13,8 @@ import {
 from "react-icons/fa";
 import { SiHeroku, SiGraphql, SiMysql, } from "react-icons/si";
 import { DiJqueryLogo, DiMongodb } from "react-icons/di";
+import { Button, DatePicker, Space, version } from 'antd';
+import "antd/dist/reset.css";
 
 
 function Resume() {
@@ -22,7 +24,7 @@ function Resume() {
 				<h1 className="page-header">My Resume</h1>
 			</div>
 			
-            <Row>
+            {/* <Row>
 			<Col>
 				<h5>Developer Proficiencies</h5>
 				<ol>
@@ -59,7 +61,7 @@ function Resume() {
 					<li>PWA</li>
 				</ol>
             </Col>
-            </Row>
+            </Row> */}
 		</section>
     );
 }

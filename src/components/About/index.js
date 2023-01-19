@@ -1,4 +1,7 @@
 import React from 'react';
+import AboutPic from '../../assets/images/about.JPG';
+import { Button, DatePicker, Space, version } from 'antd';
+import "antd/dist/reset.css";
 
 
 function About() {
@@ -9,7 +12,7 @@ function About() {
 			</div>
             <div className="center">
 				<img
-					src={ProfilePic}
+					src={AboutPic}
 					alt="about-me"
 					className="photo"
 				/>
@@ -23,6 +26,7 @@ function About() {
                 </p>
                 
             </div>
+            
         </section>
     );
 }

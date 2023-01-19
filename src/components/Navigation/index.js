@@ -1,4 +1,6 @@
 import React from "react";
+import { Button, DatePicker, Space, version } from 'antd';
+import "antd/dist/reset.css";
 
 function Navigation(props) {
     const { currentTab, setCurrentTab } = props;

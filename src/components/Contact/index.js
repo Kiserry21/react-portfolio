@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import Contact from '../../assets/images/contact.JPG';
+import { Button, DatePicker, Space, version } from 'antd';
+import "antd/dist/reset.css";
 
 
 
@@ -43,7 +46,7 @@ function ContactForm() {
 return (
     <section className="contact">
         <div className="center">
-            <h1 className="page-header">Let's connect</h1>
+            <h1 className="page-header">Reach Me</h1>
         </div>
         <div className="center">
         <img

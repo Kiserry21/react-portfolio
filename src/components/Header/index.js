@@ -1,5 +1,6 @@
 import React from 'react';
-import Navigation from "../Navigation";
+import Navigation from "../Navigation";import { Button, DatePicker, Space, version } from 'antd';
+import "antd/dist/reset.css";
 
 function Header(props) {
     const { currentTab, setCurrentTab } = props;
@@ -15,6 +16,7 @@ function Header(props) {
                     setCurrentTab={setCurrentTab}
                 ></Navigation>
             </div>
+           
         </header>
     );
 }
