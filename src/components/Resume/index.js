@@ -15,6 +15,8 @@ import { SiHeroku, SiGraphql, SiMysql, } from "react-icons/si";
 import { DiJqueryLogo, DiMongodb } from "react-icons/di";
 import { Button, DatePicker, Space, version } from 'antd';
 import "antd/dist/reset.css";
+import { Col, Row } from 'react-bootstrap';
+ import myResume from '../../assets/files/resume.PDF';
 
 
 function Resume() {
@@ -22,9 +24,15 @@ function Resume() {
         <section>
             <div className="center">
 				<h1 className="page-header">My Resume</h1>
+				
+			</div>
+			<div className="center">
+				<a href={myResume} download>
+					<h4>Download <FaCloudDownloadAlt /></h4>
+				</a>
 			</div>
 			
-            {/* <Row>
+			<Row>
 			<Col>
 				<h5>Developer Proficiencies</h5>
 				<ol>
@@ -61,7 +69,7 @@ function Resume() {
 					<li>PWA</li>
 				</ol>
             </Col>
-            </Row> */}
+            </Row>
 		</section>
     );
 }
