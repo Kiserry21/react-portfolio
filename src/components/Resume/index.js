@@ -13,9 +13,8 @@ import {
 from "react-icons/fa";
 import { SiHeroku, SiGraphql, SiMysql, } from "react-icons/si";
 import { DiJqueryLogo, DiMongodb } from "react-icons/di";
-import { Button, DatePicker, Space, version } from 'antd';
-import "antd/dist/reset.css";
-import { Col, Row } from 'react-bootstrap';
+
+
  import myResume from '../../assets/files/resume.PDF';
 
 
@@ -32,8 +31,9 @@ function Resume() {
 				</a>
 			</div>
 			
-			<Row>
-			<Col>
+			<div className='row'>
+			
+			<div className='col-4'>
 				<h5>Developer Proficiencies</h5>
 				<ol>
 					<li>Git <FaGitAlt /></li>
@@ -41,8 +41,8 @@ function Resume() {
 					<li>Heroku <SiHeroku /></li>
 				</ol>
 				<br></br>
-            </Col>
-            <Col>
+            </div>
+            <div className='col-4'>
 				<h5>Front-End Proficiencies</h5>
 				<ol>
 					<li>HTML5 <FaHtml5 /></li>
@@ -53,8 +53,8 @@ function Resume() {
 					<li>Bootstrap <FaBootstrap /></li>
 				</ol>
 				<br></br>
-            </Col>
-            <Col>
+            </div>
+            <div className='col-4'>
 				<h5>Back-End Proficiencies</h5>
 				<ol>
                     <li>Nodejs  <FaNode /></li>
@@ -68,8 +68,8 @@ function Resume() {
 					<li>MVC</li>
 					<li>PWA</li>
 				</ol>
-            </Col>
-            </Row>
+            </div>
+            </div>
 		</section>
     );
 }
