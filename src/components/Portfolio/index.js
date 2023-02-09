@@ -1,6 +1,7 @@
 import React from "react";
 import QuizChallenge from "../../assets/images/quiz.png";
 import TechBlog from "../../assets/images/tech-blog.png";
+import FreeWeight from "../../assets/images/freeweight.png";
 import WeatherDashboard from "../../assets/images/wdashboard.png";
 import WDIWD from "../../assets/images/WDIWD.png";
 import WikiView from "../../assets/images/wikiview.png";
@@ -29,6 +30,28 @@ function Portfolio() {
               </a>
               <a
                 href="https://kiserry21.github.io/QuizApp/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn btn-primary">Website</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src={FreeWeight} alt="freeWeight" class="card-img-top" />
+            <div class="card-body">
+              <p className="center">Free Weight</p>
+              <a
+                href="https://github.com/Arspeke8/project-3-moon-server"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn btn-primary">GitHub</button>
+              </a>
+              <a
+                href="https://moon-client.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
