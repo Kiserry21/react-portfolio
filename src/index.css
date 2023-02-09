@@ -384,4 +384,4 @@ footer {
 }
 
 
-@media screen and (max-width:575px){form{padding-right:350px}input,textarea{width:350px}textarea{height:120px}.logo{font-size:30px}.photo{max-height:220px;max-width:140px}label,ol li{font-size:.7rem}ol li{font-weight:700;list-style:inside}}@media screen and (max-width:414px){.logo,.name h2,.page-header{font-size:1rem}.mx-2{font-size:.6rem}.contact{padding-left:0;padding-top:0}.contact h1{font-size:1rem}form{padding-right:200px}input,textarea{width:200px}textarea{height:60px}}
+@media screen and (max-width:575px){form{padding-right:10px}input,textarea{width:700px}textarea{height:120px}.logo{font-size:30px}.photo{max-height:220px;max-width:140px}label,ol li{font-size:.7rem}ol li{font-weight:700;list-style:inside}}@media screen and (max-width:414px){.logo,.name h2,.page-header{font-size:1rem}.mx-2{font-size:.6rem}.contact{padding-left:0;padding-top:0}.contact h1{font-size:1rem}form{padding-right:200px}}

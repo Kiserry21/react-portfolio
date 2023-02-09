@@ -55,19 +55,19 @@ return (
 					className="photo"
 				/>
         </div>
-        <div className="center">
+        <div className="center w-100">
         <form className="contact-form form-group" onSubmit={handleSubmit}>
             <div>
                 <label className='text-muted' htmlFor="name">Name:</label>
-                <input className='form-control' type="text" name="name" value={name} onBlur={handleChange} />
+                <input className='form-control' type="text" name="name" value={name} onChange={handleChange} />
             </div>
             <div>
                 <label className='text-muted'htmlFor="email">Email address:</label>
-                <input className='form-control'type="email" name="email" value={email} onBlur={handleChange} />
+                <input className='form-control'type="email" name="email" value={email} onChange={handleChange} />
             </div>
             <div>
                 <label className='text-muted'htmlFor="message">Message:</label>
-                <textarea className='form-control'name="message" rows="5" value={message} onBlur={handleChange} />
+                <textarea className='form-control'name="message" rows="5" value={message} onChange={handleChange} />
             </div>
             {errorMessage && (
             <div>
