@@ -71,7 +71,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 # Deployed Link
 
-https://kiseri-habte-portfolio.netlify.app/
+https://kiseri-habte.netlify.app/
+
 
 
 
