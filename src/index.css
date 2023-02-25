@@ -71,8 +71,36 @@ p {
 }
 
 .card-body p,
+h2 {
+  font-weight: 900;
+  font-family:cursive;
+  font-size: xx-large;
+  color: black;
+
+}
+.card-body
 h5 {
-  text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1),
+  font-weight: 550;
+  font-family:monospace;
+  font-size: large;
+  font-style:unset;
+  /* background-color: #EAFFFD; */
+  color: black;
+  border-radius: 15px;
+  
+
+}
+.card-body h6 {
+  font-weight: 500;
+  font-family:cursive;
+  font-size:larger;
+  color: blue;
+}
+
+.card-body p,
+h2 {
+  font-size: large;
+  text-shadow: 0 4px 3px rgba(255, 255, 255, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1),
     0 18px 23px rgba(0, 0, 0, 0.1);
 }
 
@@ -170,6 +198,7 @@ nav {
   font-family: "Abel", sans-serif;
 }
 
+
 nav {
   padding-top: 15px;
   font-size: 1.25rem;
@@ -188,6 +217,7 @@ nav li:hover {
   text-align: left;
   color: var(--dark);
   padding: 0 30px 0 50px;
+  
 }
 
 .name h2 {
@@ -284,7 +314,7 @@ nav li:hover {
   padding: 0 30px;
 }
 
-.projects {
+.portfolio {
   text-align: center;
   font-size: 1rem;
 }
@@ -299,6 +329,10 @@ footer {
   box-shadow: 0 0 15px #000;
 }
 
+.card-body {
+  background-color: #EAEFBD;
+}
+
 .contact {
   padding-top: 5px;
   padding-bottom: 76px;
@@ -310,6 +344,8 @@ footer {
   padding-bottom: 15px;
   padding-top: 30px;
 }
+
+
 
 footer {
   width: 100%;
@@ -339,6 +375,7 @@ footer {
   max-height: 540px;
   margin-bottom: 50px;
   box-shadow: 0 0 15px #000;
+  border-radius: 50px;
 }
 
 .image {
@@ -346,7 +383,8 @@ footer {
   height: auto;
   max-width: 500px;
   max-height: 500px;
-  padding: 50px;
+  
+  
 }
 
 .center {
