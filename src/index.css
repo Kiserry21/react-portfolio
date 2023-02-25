@@ -73,18 +73,17 @@ p {
 .card-body p,
 h2 {
   font-weight: 900;
-  font-family:cursive;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: xx-large;
   color: black;
 
 }
 .card-body
 h5 {
-  font-weight: 550;
-  font-family:monospace;
+  font-weight: -129;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: large;
   font-style:unset;
-  /* background-color: #EAFFFD; */
   color: black;
   border-radius: 15px;
   
@@ -92,7 +91,7 @@ h5 {
 }
 .card-body h6 {
   font-weight: 500;
-  font-family:cursive;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size:larger;
   color: blue;
 }
@@ -432,7 +431,7 @@ footer {
   --spacing-five: calc(1rem);
 }
 
-@media screen and (max-width: 575px) {
+@media screen {
   form {
     padding-right: 10px;
   }
@@ -489,7 +488,7 @@ footer {
   
 }
 }
-@media screen and (max-width: 414px) {
+@media screen {
   .logo,
   .name h2,
   .page-header {
