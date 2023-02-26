@@ -431,7 +431,7 @@ footer {
   --spacing-five: calc(1rem);
 }
 
-@media screen {
+@media screen and (max-width: 575px) {
   form {
     padding-right: 10px;
   }
@@ -488,7 +488,7 @@ footer {
   
 }
 }
-@media screen {
+@media screen and (max-width: 390px) {
   .logo,
   .name h2,
   .page-header {
