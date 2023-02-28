@@ -69,7 +69,7 @@ function Portfolio() {
 
               <h5>
                 NodeJs, Handlebars, CSS, Vanilla Javascript,
-                Sequelize, MySQL, Express, bCrypt, Heroku.
+                Sequelize, MySQL, Express, bCrypt, GitHub, Heroku.
               </h5>
               <a
                 href="https://github.com/cbinder705/TBD-WDIWD-"
@@ -103,7 +103,7 @@ function Portfolio() {
 
               <h5>
                React, Node.js, Express.js, JavaScript, MongoDB,
-                Mongoose, Apollo Server, GraphQL, Heroku
+                Mongoose, Apollo Server, GraphQL, GitHub, Heroku.
               </h5>
               <a
                 href="https://github.com/Arspeke8/project-3-moon-server"

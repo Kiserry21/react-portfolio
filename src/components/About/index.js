@@ -2,6 +2,7 @@ import React from 'react';
 import AboutPic from '../../assets/images/about.JPG';
 import { Button, DatePicker, Space, version } from 'antd';
 import "antd/dist/reset.css";
+import "./About.css";
 
 
 function About() {
@@ -18,13 +19,16 @@ function About() {
 				/>
 			</div>
             <div className="about-me">
+                <div className='first'>
                 <p>
                 Hello, I'm Kiseri Habte, a recent graduate of the Rutgers University Bootcamp. 
                 My education in web development has equipped me with the skills and 
                 knowledge necessary to excel in the tech industry. 
                 I specialize in building web applications with a focus on user experience.
                 </p>
+                </div>
                 
+                <div className='second'>
                 <p>
 
                   My background in web development combined with my passion for fitness and reading has led me to focus on 
@@ -33,7 +37,9 @@ function About() {
                   including JavaScript, HTML, CSS, React, and more. I am always eager to learn and stay current with new technologies.
 
                   </p>
+                  </div>
 
+                  <div className='third'>
                   <p>
 
                   Aside from coding, I enjoy staying active and keeping fit.
@@ -43,6 +49,7 @@ function About() {
                 my skills to build applications that improve people's lives.
 
                 </p>
+                </div>
                
                 
             </div>
