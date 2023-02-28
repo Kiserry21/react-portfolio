@@ -3,7 +3,7 @@
 }
 
 main {
-  background: linear-gradient(90deg, #e3edf5, #acc9dc);
+  background: linear-gradient(90deg, #3E92CC , #8075FF );
   padding-bottom: 60px;
 }
 
@@ -197,6 +197,13 @@ nav {
   font-family: "Abel", sans-serif;
 }
 
+/* .about-me div {
+  margin: 15px;
+  padding: 20px;
+  
+} */
+
+
 
 nav {
   padding-top: 15px;
@@ -213,19 +220,24 @@ nav li:hover {
 }
 
 .about-me {
-  text-align: left;
-  color: var(--dark);
-  padding: 0 30px 0 50px;
-  border-radius: 80PX;
-  display: flex;
+  text-align: center;
+  text-decoration: solid;
+  padding: 0 40px 0 50px;
+  /* border-radius: 80PX;
+  display: flex; */
 
   
 }
-
+/* 
 .first {
   background-color: white;
   border-radius: 30px;
-  text-align: center;    
+  display: flex;
+  color: black;
+
+
+
+   
   
   
 }
@@ -240,7 +252,7 @@ nav li:hover {
   border-radius: 30px;
   
   
-}
+} */
 
 .name h2 {
   font-size: 2.8rem;
@@ -365,6 +377,7 @@ footer {
 .center h1 {
   padding-bottom: 15px;
   padding-top: 30px;
+  color: white;
 }
 
 
